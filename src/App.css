@@ -1,0 +1,114 @@
+.card{
+    transition: hover,250ms ease-in-out;
+}
+
+.card:hover{
+    scale: 1.1;
+}
+
+.filter-options{
+    border: 1px solid rgba(114, 112, 112, 0.762);
+    width: 100px;
+    border-radius: 30px;
+    transition: hover,active,250ms ease-in-out;
+    
+}
+
+.filter-options:hover{
+    background-color: rgb(92, 92, 92);
+    color:white;
+}
+
+.filter-options:active{
+    background-color: rgb(126, 124, 124);
+    color:white;
+}
+
+.filter-options-active{
+    background-color: rgb(92, 92, 92);
+    color:white;
+    border: 1px solid rgba(114, 112, 112, 0.762);
+    width: 100px;
+    border-radius: 30px;
+    transition: hover,active,250ms ease-in-out;
+    
+}
+
+.filter-options-active:active{
+    background-color: rgb(126, 124, 124);
+    color:white;
+}
+
+
+.filter-arrow-img{
+    cursor: pointer;
+    transition: opacity,250ms ease-in-out;
+}
+
+
+
+
+.filter-arrow-img:hover{
+    opacity: 0.8;
+}
+
+.filter-arrow-img:active{
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+.filter-collapse{
+    
+    overflow: hidden;  /* Hide the element content, while height = 0 */
+    max-height: 0;
+    opacity: 0;
+    
+}
+.filter-expand{
+    
+    height: auto;
+    opacity: 1;
+    transition: height 0ms 0ms, opacity 400ms 0ms;
+
+   
+}
+
+
+@media screen and (min-width: 640px) {
+    .filter-collapse{
+        overflow:visible;
+        max-height: 100%;
+        opacity: 1;
+        
+    }
+    .filter-expand{
+        
+        height: auto;
+        opacity: 1;
+        transition: height 0ms 0ms, opacity 400ms 0ms;
+    
+       
+    }
+    
+  }
+
+
+ 
+
+
+  
+
+
+
+
+
+
+
+
