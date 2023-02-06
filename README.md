@@ -1,9 +1,15 @@
 # Anime-List
 
+commands : 
+
 just run npm i or yarn to install dependencies 
-yarn run dev  : for development server(localhost) 
-yarn run build  : to build optimize application
-yarn run preview : after build you can use this cmd to run build on localhost 
+
+1 : npm run dev or yarn run dev(To run on localhost). 
+
+2 : npm run build or yarn run build
+
+3 : npm run preview or yarn run preview
+
 
 you can change base url in vite.config file
 
