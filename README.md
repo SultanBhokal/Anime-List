@@ -16,7 +16,7 @@ you can change base url in vite.config file
 
 You can visit and see demo of this project :- https://sultanbhokal.github.io/Anime-List/
 
-I have used tanstack react location to make this is multi page. 
+I have used tanstack react location to make this web app multi page. 
 
 please note : 
 
