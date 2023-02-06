@@ -20,5 +20,5 @@ I have used tanstack react location to make this web app multi page.
 
 please note : 
 
-react router or react location does not work properly on github .
+react router or react location does not work properly on github if you host on github .
 you might face error like 404 not found if you refresh the page
